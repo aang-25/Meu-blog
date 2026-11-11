@@ -1,5 +1,18 @@
 body {
-    cursor: url("٭")
 
-background-color: #9400D3;
+background-color: #b82ff3;
+
+background-image: 
+radial-gradient(#000000 20%, transparent 20);
+
+background-size: 35px 35px;
+background-position: 0 0, 17px 17px;
+
+
+background-attachment: fixed;
+
+font-family: 'Poppins';
+color: #000000
+
+cursor: url("⋆"), auto;
 }
