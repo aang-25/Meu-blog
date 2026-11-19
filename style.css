@@ -104,25 +104,3 @@ body {
     padding: 10px 15px;
     cursor: pointer;
 }
-
-.btn-like:active {
-    transform: translate(2px, 2px);
-    box-shadow: 2px 2px 0px #000000;
-}
-
-.btn-like.curtido {
-    background-color: #ff007f;
-    color: #ffffff;
-}
-
-/* 7. RODAPÉ */
-footer {
-    max-width: 750px;
-    margin: 40px auto 10px auto;
-    background-color: #000000;
-    color: #00ffff;
-    border: 3px solid #00ffff;
-    padding: 15px;
-    text-align: center;
-    font-size: 0.9rem;
-}
