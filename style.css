@@ -5,27 +5,10 @@
     box-sizing: border-box;
 }
 
-/* 2. ESTAMPA DE ONCINHA VARIADA E ORGÂNICA */
+/* 2. FOTO DE FUNDO DE ONCINHA */
 body {
-    background-color: #b82ff3;
-    background-image: 
-        /* Mancha 1: Grande rosa inclinada */
-        radial-gradient(ellipse 18px 12px at 25px 25px, #ff007f 45%, #000000 48%, #000000 72%, transparent 75%),
-        /* Mancha 2: Pequena amarela alongada */
-        radial-gradient(ellipse 10px 15px at 85px 20px, #000000 40%, #000000 44%, #000000 74%, transparent 77%),
-        /* Mancha 3: Média ciano "aberta" (deslocada do contorno preto) */
-        radial-gradient(ellipse 13px 10px at 62px 62px, #00ffff 50%, transparent 54%),
-        radial-gradient(ellipse 16px 12px at 59px 60px, #000000 68%, transparent 71%),
-        /* Mancha 4: Pequena só preta (pintinha) */
-        radial-gradient(circle 6px at 112px 55px, #000000 80%, transparent 85%),
-        /* Mancha 5: Média rosa alta */
-        radial-gradient(ellipse 11px 16px at 22px 88px, #ff007f 42%, #000000 46%, #000000 73%, transparent 76%),
-        /* Mancha 6: Grande amarela "aberta" */
-        radial-gradient(ellipse 17px 11px at 95px 98px, #000000 48%, transparent 52%),
-        radial-gradient(ellipse 20px 13px at 98px 101px, #000000 68%, transparent 71%),
-        /* Mancha 7: Pintinha preta menor */
-        radial-gradient(circle 5px at 55px 105px, #000000 80%, transparent 85%);
-    background-size: 130px 120px;
+    background-image: url("estampa-animal-em-aquarela_52683-56380.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
     color: #000000;
@@ -47,7 +30,7 @@ body {
 .main-header h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
-    color: #000000;
+    color: #ffff00;
     margin-bottom: 12px;
     line-height: 1.4;
 }
